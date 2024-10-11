@@ -54,7 +54,8 @@ const Login = () => {
     });
 
     const onSubmit = (data) => {
-        mutation.mutate(data);
+        //    mutation.mutate(data);
+        router.push("/user/dashboard");
     };
 
     return (
